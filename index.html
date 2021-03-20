@@ -5,47 +5,77 @@
 <link href="styles.css" rel="stylesheet">
 
 <html>
-<body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Plots <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Comparison</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Data</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
 
+<body>
 
-<h1>Summary: Latitude vs X</h1>
+<div class = "container">
+    <br>
+    <div class = "row">
+        <div class = "col col-12 col-md-8 divbdy">
+            <br>
+            <h1>Summary: Latitude vs X</h1>
+            <hr>
+            <img src="Visualizations/Fig1.png" class="rounded float-left">
+            <p>The Purpose of this project was to analyze how weather changes as you get closer to the 
+                equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API 
+                to assemle a dataset on over 500 Cities. 
+            </p>
+            
+            <p>After assembling the dataset, we used Matplotlib to plot various aspects 
+                of the wether vs. Latitude. Factors we looked at included: temperature, cloudiness, 
+                wind speed, and humidity. This site provides the source data and visualizations 
+                created as part of the analysis, as well as explanations and descriptions of any 
+                trends and correlations witnessed.
+            </p>
+            </hr>
+        </div>
 
-<p>The Purpose of this project was to analye howe weather changes as you get closer to the 
-    equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API 
-    to assemle a dataset on over 500 Cities. 
-</p>
+        <div class = "col col-12 col-md-4 divbdy">
+            <br>
+            <h2>Visualizations</h2>
+            <div class = "row">
+                <div class = 'col col-3 col-md-6'>
+                    <a href = 'visualization-1.html'><img src = 'Visualizations/Fig1.png' alt = 'Latitude vs. Temperature'></a>
+                </div>
 
-<p>After assembling the dataset, we used Matplotlib to plot various aspects 
-    of the wether vs. Latitude. Factors we looked at included: temperature, cloudiness, 
-    wind speed, and humidity. This site provides the source data and visualizations 
-    created as part of the analysis, as well as explanations and descriptions of any 
-    trends and correlations witnessed.
-</p>
+                <div class = 'col col-3 col-md-6'>
+                    <a href = 'visualization-2.html'><img src = 'Visualizations/Fig2.png' alt = 'Latitude vs. Temperature'></a>
+                </div>
+
+                <div class = 'col col-3 col-md-6'>
+                    <a href = 'visualization-3.html'><img src = 'Visualizations/Fig3.png' alt = 'Latitude vs. Temperature'></a>
+                </div>
+
+                <div class = 'col col-3 col-md-6'>
+                    <a href = 'visualization-4.html'><img src = 'Visualizations/Fig4.png' alt = 'Latitude vs. Temperature'></a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
 
 
 </body>

@@ -1,3 +1,8 @@
 h1 {
-    color: navy
+    color: navy;
+}
+
+img {
+    height: 200px;
+    width: 200px;
 }
