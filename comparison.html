@@ -9,6 +9,7 @@
 <link href="styles.css" rel="stylesheet">
 
 <html>
+
     <nav class="navbar navbar-expand-lg">
         <a class="btn btn-primary" href="index.html" role="button">Latitude</a>
 
@@ -28,34 +29,52 @@
                   </div>
             </li>
             <li class="nav-item active float-right">
-              <a class="nav-link" href="comparison.html">Comparison</a>
+              <a class="nav-link" href="#">Comparison</a>
             </li>
             <li class="nav-item active float-right">
-              <a class="nav-link" href="data.html">Data</a>
+              <a class="nav-link" href="#">Data</a>
             </li>
           </ul>
         </div>
     </nav>
 
-  <body>
+    <body>
 
-    <div class = "container">
-        <div class = "col col-12 col-md-12 divbdy">
-            <h1>Max Temperature</h1>
+        <h1 style = "text-align: center" >Data Comparison</h1>
+        <h2 style = "text-align: center" >Click on any graph to be redirected to the detailed analysis</h2>
 
-            <hr>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <a href = 'visualization-1.html'>
+                    <img src="Visualizations/Fig1.png" class="rounded float-left">
+                </a>
+              </div>
 
-            <img src="Visualizations/Fig1.png" class="rounded float-left">
+              <div class="col">
+                <a href = 'visualization-2.html'>
+                    <img src="Visualizations/Fig2.png" class="rounded float-left">
+                </a>
+              </div>
 
-            <p>Looking closely at the comparison table, we can see that locations closer to the equator have inherently warmer climates than
-                those further away. Interestingly, there is a more pronounced curve on the Northern Hemisphere showing that the further away from the Hemisphere
-                you get, the colder the temperature is, whereas the southern temperature increase is not as pronounced.
-            </p>
-            </hr>
+              <div class="w-100"></div>
 
-      </div>
-    </div>
+              <div class="col">
+                <a href = 'visualization-3.html'>
+                    <img src="Visualizations/Fig3.png" class="rounded float-left">
+                </a>
+              </div>
 
-  </body>
+              <div class="col">
+                <a href = 'visualization-4.html'>
+                    <img src="Visualizations/Fig4.png" class="rounded float-left">
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+
+    </body>
 
 </html>
