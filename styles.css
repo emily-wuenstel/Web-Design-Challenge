@@ -1,3 +1,7 @@
+body {
+    background-color: lightgrey;
+}
+
 h1 {
     color: navy;
 }
@@ -5,4 +9,24 @@ h1 {
 img {
     height: 200px;
     width: 200px;
+}
+
+.navbar {
+    background-color: lightblue;
+    color: black;
+}
+
+.dropdown {
+    background-color: teal;
+    color: black;
+}
+
+.btn {
+    background-color: lightblue;
+    border-color: lightblue;
+    color: black;
+}
+
+li {
+    color: black
 }
